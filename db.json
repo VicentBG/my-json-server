@@ -3,8 +3,36 @@
     "nombre": "VicentBG",
     "repo": "my-json-server"
   },
-  "intereses": {},
-  "familia": [],
-  "dichos": [],
-  "otros": {}
+  "intereses": {
+    "programación": ["javascript","html5","css3","python"],
+    "deportes": ["running","trail-running","kettlebells"],
+  },
+  "familia": [
+    {"id": 1, "nombre": "Ana", "parentesco": "madre"},
+    {"id": 2, "nombre": "Anabel", "parentesco": "hermana"},
+    {"id": 3, "nombre": "Juan", "parentesco": "hermano"},
+    {"id": 4, "nombre": "Diana", "parentesco": "hermana"},
+    {"id": 5, "nombre": "María", "parentesco": "mujer"},
+    {"id": 6, "nombre": "Irene", "parentesco": "hija"},
+  ],
+  "dichos": [
+    {"lengua": "valencià", 
+     "ejemplos":[
+        "Dona refranera, gossa i malfaenera.",
+        "A la taula i al llit al primer crit."
+     ]},
+    {"lengua": "castellano", 
+     "ejemplos":[
+        "A quien madruga, Dios les ayuda.",
+        "No por mucho madrugar amanece más temprano.",
+        "Dime de qué presumes y te diré de qué careces."
+     ]},
+    {"lengua": "english", 
+     "ejemplos":[
+        "It's rainning cats and dogs!"
+     ]}
+  ],
+  "otros": {
+    "Hello": "World!"
+  }
 }
